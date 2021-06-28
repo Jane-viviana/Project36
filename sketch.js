@@ -24,11 +24,11 @@ function setup() {
   foodStock.on("value",readStock,)
 
   feed = createButton("FeedTheDog");
-  feed.position(500,50);
+  feed.position(700,95);
   feed.mousePressed(feedDog);
 
   addFood = createButton("AddFood");
-  addFood.position(600,50);
+  addFood.position(800,95);
   addFood.mousePressed(addFoods);
 
 }
